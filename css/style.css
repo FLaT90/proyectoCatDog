@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    padding-left: 30px ;
+    padding-right: 30px;
+}
+
+.link-top{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    font-weight: bold;
+    
+}
+
+.menu{
+    display: flex;
+    background-color: #F0A83E;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.link-menu{
+    color:white;
+    text-decoration: none;
+    padding-right: 20px;
+
+}
+
+.anuncio{
+    background-image: url("../img/bowl.png");
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.informacion{
+    position: absolute;
+    right:80px;
+    top: 200px;
+    text-align: center;
+}
+
+.titulo-anuncio{
+    font-size: 30px;
+    background-color: white;
+    color: #3C2313;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.texto-anuncio{
+    color: #3C2313;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.boton-anuncio{
+    background-color: #F0A83E;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.contenido{
+    padding: 10px 100px 100px 100px;
+    
+
+}
+.productos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.texto-productos{
+    text-align: center;
+    line-height: 40px;
+    padding-bottom:  30px;
+
+}
+.color-cafe{
+    color: #3C2313;
+}
+
+.color-precio{
+    color: #F0A83E;
+}
+
+h1{
+    font-size: 40px;
+
+}
+
+.contacto{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+.dato{
+    background-color: #3C2313;
+    color: white;
+    margin: 20px 450px 10px 450px ;
+    text-align: start;
+    border-radius: 15px;
+    padding: 18px;
+    font-size: 9px;
+    
+}
+
+.boton-reset{
+    background-color: #8A8787;
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 2px #3C2313;
+}
+
+.boton-send{
+    background-color: #F0A83E;
+    color:white;
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    line-height: 60px;
+    border: solid 2px #3C2313;
+}
+
+.enviar-correo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+}
+
+.escribir{
+    display: flex;
+    
+}
+
+.espacio-escribir{
+    background-color: white;
+    margin-right: 20px;
+    padding: 15px 250px 15px 10px;
+    border-radius: 15px;
+    font-size: 9px;
+    
+}
+
+.boton-suscribirse{
+    text-decoration: none;
+    background-color: #3C2313;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 10px 15px 10px ;
+    
+    
+}
+
+.texto-suscribirse{
+    color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.parte-final{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px 40px 50px;
+    align-items: center;
+    
+}
+.contacto-dos{
+    display: flex;
+    padding: 20px 0px 15px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.links-contacto-dos{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-contacto-dos{
+    padding-left: 30px;
+}
+
+.logo2{
+    align-items: center;
+}
+
+.derechos{
+    background-color: #222222;
+    color:white;
+    text-align: center;
+}
+
+
+
